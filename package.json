@@ -1,0 +1,28 @@
+{
+  "name": "url",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "a": "jsdoc -r models server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "jsdoc": "^4.0.3",
+    "mongoose": "^8.4.0",
+    "nanoid": "^5.0.7",
+    "shortid": "^2.2.16",
+    "swagger-ui-express": "^5.0.0",
+    "yaml": "^2.4.2"
+  }
+}
